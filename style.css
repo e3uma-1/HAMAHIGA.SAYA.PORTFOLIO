@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+/*共通部分------------------------------*/
+
+html{font-size: 100%;}
+body{
+    font-family: "Shree Devanagari 714";
+    line-height:1.7;
+    coler:#000000
+}
+a{text-decoration: none;}
+img{max-width: 100%;}
+
+/*ホーム------------------------------*/
+/*nav------------------------------*/
+
+.main-nav{
+    font-size: 25px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	justify-content: space-between;
+    line-height:3.0;
+    
+    
+}
+
+.main-nav a{
+    color: #ffff
+    
+}
+
+.main-nav a:hover{
+    color: #666666;
+}
+
+
+
+.borderline{
+border-left: 2px solid #ffff;
+height: 250px;
+margin-top:300px;
+margin-left: 1150px;
+}
+
+    
+/*logo------------------------------*/
+
+.box1 {
+    margin-top:50px;
+    margin-left: 100px;
+    font-weight:normal;
+    border: solid 3px #ffff;
+    color: #ffff;
+    width:140px;
+    height: 125px;
+    position: relative;
+    padding: 20px 5px;
+}
+
+.box1 p {
+    font-size: 20px;
+    line-height: 0.3;
+    margin-top:15px;
+    margin-left: 10px;
+    
+}
+
+
+
+
+
+
+/*フルスクリーン------------------------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#fullscreen img {
+  width: 100%;
+  height: 100%;
+  min-width:auto;
+  min-height: auto;
+  position: fixed;
+  left: -200px;
+  z-index: -1;
+}
+@media (min-width: 769px) {
+#fullscreen img {
+  left: 0;
+}
+/* ** */}
+
+/*ホーム------------------------------*/
+
+
+
